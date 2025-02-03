@@ -10,7 +10,7 @@ pkg install -y termux-api
 echo "Mengatur password user..."
 printf "726785\n726785\n" | passwd
 
-# Jalankan SSH
+# Jalankan SSHD
 sshd
 
 # Buat folder boot dan skrip start.sh
