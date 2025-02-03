@@ -3,7 +3,7 @@
 # Install OpenSSH
 pkg install -y openssh
 
-# Install Termux API
+# Install Termux-API
 pkg install -y termux-api
 
 # Atur password untuk user Termux
