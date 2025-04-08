@@ -1,7 +1,13 @@
 #!/data/data/com.termux/files/usr/bin/sh
 
+#update
+pkg update
+
 # Install OpenSSH
 pkg install -y openssh
+
+# install python
+pkg install -y python
 
 # Install Termux-API
 pkg install -y termux-api
@@ -25,7 +31,7 @@ EOF
 chmod +x ~/.termux/boot/start.sh
 
 # Ubah prompt Termux menjadi custom_name@termux
-echo 'export PS1="aku@termux:~$ "' >> ~/.bashrc
+echo 'export PS1="benjamin@termux:~$ "' >> ~/.bashrc
 
 # Muat ulang file konfigurasi bash untuk menerapkan perubahan
 source ~/.bashrc
